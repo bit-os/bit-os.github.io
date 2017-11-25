@@ -102,7 +102,7 @@ $(document).ready(function(){
 	});
 
 
-	$('#clock').countdown('2017/12/01', function(event) {
+	$('#clock').countdown('2018/08/08', function(event) {
 		$(this).html(event.strftime('%m %n %H %M %S'));
 	});
 
